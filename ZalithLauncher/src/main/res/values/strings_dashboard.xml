@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dash_nav_home">Home</string>
+    <string name="dash_nav_sandbox">Sandbox</string>
+    <string name="dash_nav_mods">Mods</string>
+    <string name="dash_nav_ai">AI</string>
+    <string name="dash_nav_recorder">Recorder</string>
+    <string name="dash_nav_servers">Servers</string>
+    <string name="dash_nav_accounts">Accounts</string>
+    <string name="dash_nav_settings">Settings</string>
+    <string name="dash_nav_friends">Friends</string>
+</resources>

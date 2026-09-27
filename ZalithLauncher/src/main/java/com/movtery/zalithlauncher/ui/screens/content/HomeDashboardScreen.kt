@@ -139,15 +139,15 @@ fun HomeDashboardScreen(
 // SIDEBAR
 // ------------------------------------------------------------------
 private enum class DashboardNavItem(val labelRes: Int, val icon: Int) {
-    HOME(R.string.main_launcher, R.drawable.dash_ic_home),
-    SANDBOX(R.string.main_launcher, R.drawable.dash_ic_sandbox),
-    MODS(R.string.download_title, R.drawable.dash_ic_mods),
-    AI(R.string.main_launcher, R.drawable.dash_ic_ai),
-    RECORDER(R.string.main_launcher, R.drawable.dash_ic_recorder),
-    SERVERS(R.string.multiplayer_title, R.drawable.dash_ic_servers),
-    ACCOUNTS(R.string.account_title, R.drawable.dash_ic_accounts),
-    SETTINGS(R.string.settings_title, R.drawable.dash_ic_settings),
-    FRIENDS(R.string.main_launcher, R.drawable.dash_ic_friends),
+    HOME(R.string.dash_nav_home, R.drawable.dash_ic_home),
+    SANDBOX(R.string.dash_nav_sandbox, R.drawable.dash_ic_sandbox),
+    MODS(R.string.dash_nav_mods, R.drawable.dash_ic_mods),
+    AI(R.string.dash_nav_ai, R.drawable.dash_ic_ai),
+    RECORDER(R.string.dash_nav_recorder, R.drawable.dash_ic_recorder),
+    SERVERS(R.string.dash_nav_servers, R.drawable.dash_ic_servers),
+    ACCOUNTS(R.string.dash_nav_accounts, R.drawable.dash_ic_accounts),
+    SETTINGS(R.string.dash_nav_settings, R.drawable.dash_ic_settings),
+    FRIENDS(R.string.dash_nav_friends, R.drawable.dash_ic_friends),
 }
 
 @Composable
